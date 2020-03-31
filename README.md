@@ -12,7 +12,7 @@ In this notebook, I used pre-trained MS COCO weights for Lungs detection and seg
 
 ## Notebook
 * ([model.py](mrcnn/model.py), [utils.py](mrcnn/utils.py), [config.py](mrcnn/config.py)): These files contain the main Mask RCNN implementation. 
-* [train_lungs.ipynb](train_lungs.ipynb) : this notebook with full implementation
+* [01_train_lungs.ipynb](01_train_lungs.ipynb) : this notebook with training implementation
 
 ## Approach
 The data consist of 567 masks and 663 X-rays. Here I used only the X-rays that have masks. The data was split into a 10:1 ratio for learning. That resulted in 510 train images and 57 validation images. 
